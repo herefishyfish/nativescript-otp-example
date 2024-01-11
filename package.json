@@ -1,0 +1,33 @@
+{
+  "name": "ns-otp",
+  "main": "./src/main.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~17.0.0",
+    "@angular/common": "~17.0.0",
+    "@angular/compiler": "~17.0.0",
+    "@angular/core": "~17.0.0",
+    "@angular/forms": "~17.0.0",
+    "@angular/platform-browser": "~17.0.0",
+    "@angular/platform-browser-dynamic": "~17.0.0",
+    "@angular/router": "~17.0.0",
+    "@nativescript/angular": "^17.0.0",
+    "@nativescript/core": "~8.6.0",
+    "@nativescript/theme": "~3.0.2",
+    "@triniwiz/nativescript-masonkit": "^1.0.0-alpha.7",
+    "rxjs": "~7.8.0",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~17.0.0",
+    "@angular/compiler-cli": "~17.0.0",
+    "@nativescript/android": "8.6.2",
+    "@nativescript/tailwind": "^2.0.1",
+    "@nativescript/types": "~8.6.0",
+    "@nativescript/webpack": "~5.0.18",
+    "tailwindcss": "~3.2.0",
+    "@ngtools/webpack": "~17.0.0",
+    "typescript": "~5.2.0"
+  }
+}
