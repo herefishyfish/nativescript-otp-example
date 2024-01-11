@@ -6,16 +6,14 @@ import { Button } from '@nativescript/core';
   selector: 'login-page',
   standalone: true,
   template: `
-    <StackLayout>
+    <StackLayout horizontalAlignment="center">
       <Label class="h1 text-center">Login Page</Label>
       @if(loggedIn()) {
         <Label class="h2 text-center">Logged In</Label>
 
         <Button (tap)="loggedIn.set(false)">Logout</Button>
       } @else {
-        <GridLayout columns="*, auto, *" rows="auto">
-          <otp-input column="1" (correctOtp)="loggedIn.set(true)" />
-        </GridLayout>
+        <otp-input column="1" (correctOtp)="loggedIn.set(true)" />
       }
     </StackLayout>
   `,
