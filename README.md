@@ -1,3 +1,3 @@
 # NativeScript OTP input example
 
-<img src="docs/android.gif" width="300">
+https://twitter.com/NativeScript/status/1745643834430902561
