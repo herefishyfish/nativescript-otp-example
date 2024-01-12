@@ -1,0 +1,8 @@
+@import "./app.common.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-lg {
+  line-height: 16;
+}

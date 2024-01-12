@@ -14,7 +14,6 @@
     "@angular/router": "~17.0.0",
     "@nativescript/angular": "^17.0.0",
     "@nativescript/core": "~8.6.0",
-    "@nativescript/theme": "~3.0.2",
     "@triniwiz/nativescript-masonkit": "^1.0.0-alpha.7",
     "rxjs": "~7.8.0",
     "zone.js": "~0.14.0"
@@ -23,6 +22,7 @@
     "@angular-devkit/build-angular": "~17.0.0",
     "@angular/compiler-cli": "~17.0.0",
     "@nativescript/android": "8.6.2",
+    "@nativescript/ios": "8.6.3",
     "@nativescript/preview-cli": "1.0.12",
     "@nativescript/tailwind": "^2.0.1",
     "@nativescript/types": "~8.6.0",

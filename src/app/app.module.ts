@@ -8,7 +8,7 @@ import {
   selector: "ns-app",
   template: `
     <RootLayout>
-      <page-router-outlet />
+      <page-router-outlet actionBarVisibility="never" />
     </RootLayout>
   `,
 })
@@ -30,4 +30,6 @@ class AppComponent {}
   declarations: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
 })
-export class AppModule {}
+export class AppModule {
+  
+}

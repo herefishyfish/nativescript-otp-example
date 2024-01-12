@@ -1,0 +1,7 @@
+.page-color {
+    background: linear-gradient(
+      to bottom,
+      rgb(59, 130, 246),
+      rgb(191, 219, 254)
+    );
+  }
